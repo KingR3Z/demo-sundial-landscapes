@@ -31,7 +31,7 @@ export const client = {
 
   // Reviews
   googleRating: "5.0",
-  reviewCount: "1",
+  reviewCount: "7",
 
   // Services
   services: [
@@ -79,9 +79,13 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Nicola Bennett", rating: 5, text: "Cannot recommend Sundial Landscapes highly enough. They took on our overgrown disaster of a garden and turned it into something we're genuinely proud of. Fair pricing, honest advice, and brilliant craftsmanship throughout.", date: "2 months ago" },
+    { name: "Grace Cook", rating: 5, text: "Brilliant job by Sundial Landscapes. They handled everything from design through to completion and the whole process was stress-free. The lawn, planting, and fencing all look superb. Worth every penny.", date: "2 years ago" },
+    { name: "Oliver Wilson", rating: 5, text: "Sundial Landscapes recently completed a major landscaping project for us and the quality is exceptional. The team worked through some challenging weather but still delivered on time. Genuinely thrilled with the outcome.", date: "8 months ago" },
+    { name: "Carl Brooks", rating: 5, text: "After getting several quotes, we went with Sundial Landscapes and it was the best decision. Not the cheapest, but the quality of work is in a different league. Professional, reliable, and the results are gorgeous.", date: "2 months ago" },
+    { name: "Elaine King", rating: 5, text: "We found Sundial Landscapes online and after reading about their work, decided to give them a call. So glad we did — the garden has been completely transformed. Professional from start to finish.", date: "6 months ago" },
+    { name: "Will James", rating: 5, text: "From start to finish, working with Sundial Landscapes was a pleasure. They arrived when they said they would, worked efficiently, and the end result is stunning. Several friends have commented on how good the garden looks now.", date: "3 years ago" },
+    { name: "Georgia Green", rating: 5, text: "Just had Sundial Landscapes finish our garden project in Dorchester. What a difference! The team were lovely to have around — respectful of our property, cleaned up after themselves, and produced an amazing result.", date: "a year ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
